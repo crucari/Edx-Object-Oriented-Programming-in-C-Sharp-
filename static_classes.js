@@ -45,3 +45,5 @@ public class DrinksMachine
 
 // Access Static Members
 int drinksMachineCount = DrinksMachine.CountDrinksMachines();
+
+anAnonymousObject = new { Name = "Tom", Age = 65 };
