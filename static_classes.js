@@ -47,3 +47,5 @@ public class DrinksMachine
 int drinksMachineCount = DrinksMachine.CountDrinksMachines();
 
 anAnonymousObject = new { Name = "Tom", Age = 65 };
+
+var anAnonymousObject = new { Name = "Tom", Age = 65 };
