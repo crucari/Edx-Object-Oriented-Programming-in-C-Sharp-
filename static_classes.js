@@ -49,3 +49,5 @@ int drinksMachineCount = DrinksMachine.CountDrinksMachines();
 anAnonymousObject = new { Name = "Tom", Age = 65 };
 
 var anAnonymousObject = new { Name = "Tom", Age = 65 };
+
+Console.WriteLine("Name: {0} Age: {1}", anAnonymousObject.Name, anAnonymousObject.Age};
