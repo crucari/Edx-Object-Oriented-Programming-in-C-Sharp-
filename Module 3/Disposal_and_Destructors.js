@@ -178,3 +178,11 @@ using (var word = default(ManagedWord))
 
 // If your object does not implement the IDisposable interface, a try/finally block is an exception-safe approach to execute code to release resources.
 // You should aim to use a try/finally block when it is not possible to use a using statement.
+
+public class ManagedWord : IDisposable
+    {
+       public void Dispose()
+       {
+          throw new NotImplementedException();
+       }
+    }
